@@ -1,0 +1,465 @@
+body {
+  background-color: #D1D3DE;
+  width: 40%;
+  margin: auto;
+  padding-top: 1rem;
+  animation: zweven 4s infinite ease-in-out forwards;
+}
+/* hier zweeft de body op en neer */
+@keyframes zweven {
+  0% {
+    transform: translate(0vw, 0vw);
+  }
+  50% {
+    transform: translate(0vw, 2vw);
+  }
+  100% {
+    transform: translate(0vw, 0vw);
+  }
+}
+
+/* hier bonkt de body op en neer */
+.bonkt {
+  animation: bonken 1s ease-in-out infinite;
+}
+
+@keyframes bonken {
+	33% {
+		transform: scale(1);
+	}
+	66% {
+		transform: scale(0.5);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+/* hier wordt de achtergrond kleur anders */
+.kleurrood {
+  animation: kleurveranderenrood 1s ease-in forwards;
+}
+
+@keyframes kleurveranderenrood {
+  from {
+    background-color: #D1D3DE;
+  }
+  to {
+    background-color: red;
+  }
+}
+
+.kleurblauw {
+  animation: kleurveranderenblauw 1s ease-in forwards;
+}
+
+@keyframes kleurveranderenblauw {
+  from {
+    background-color: #D1D3DE;
+  }
+  to {
+    background-color: blue;
+  }
+}
+
+.kleurpink {
+  animation: kleurveranderenpink 1s ease-in forwards;
+}
+
+@keyframes kleurveranderenpink {
+  from {
+    background-color: #D1D3DE;
+  }
+  to {
+    background-color: hotpink;
+  }
+}
+
+.kleurgroen {
+  animation: kleurveranderengroen 1s ease-in forwards;
+}
+
+@keyframes kleurveranderengroen {
+  from {
+    background-color: #D1D3DE;
+  }
+  to {
+    background-color: limegreen;
+  }
+}
+
+.kleurpaars {
+  animation: kleurveranderenpaars 1s ease-in forwards;
+}
+
+@keyframes kleurveranderenpaars {
+  from {
+    background-color: #D1D3DE;
+  }
+  to {
+    background-color: purple;
+  }
+}
+
+/* hier wordt de achtergrond kleur disco */
+.kleurtjes {
+  animation: kleurveranderen 1s ease-in-out infinite;
+}
+
+@keyframes kleurveranderen {
+  0% {
+    background-color: #D1D3DE;
+  }
+  20% {
+    background-color: red;
+  }
+  40% {
+    background-color: blue;
+  }
+  60% {
+    background-color: hotpink;
+  }
+  80% {
+    background-color: limegreen;
+  }
+  100% {
+    background-color: purple;
+  }
+}
+
+/* hier gaan de sterretjes iets sneller draaien en worden ze roze */
+.draai {
+  animation: rotations 1s ease-in-out;
+}
+
+@keyframes rotations {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(359deg);
+  }
+}
+
+.draai path {
+  fill: hotpink;
+}
+
+/* hier wordt de svg groter en wordt hij blauw en draait hij, tekst wordt ook zichtbaar */
+.vergroot {
+  position: absolute;
+  margin: auto;
+  width: 25vw;
+  left: 0;
+  right: 0;
+  top: 20vw;
+  bottom: 0;
+  z-index: 999;
+  animation: growings 1s ease-in forwards;
+}
+
+@keyframes growings {
+  from {
+      transform: scale(0);
+      transform: rotate(0deg);
+  }
+  to {
+      transform: scale(1.5);
+      transform: rotate(359deg);
+  }
+}
+
+.vergroot text {
+  animation: tekstshow 1.5s ease-in forwards;
+}
+
+@keyframes tekstshow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.vergroot path {
+  animation: achtergrondje 1s ease-in forwards;
+}
+
+@keyframes achtergrondje {
+  from {
+    fill: #1d1d1b;
+    fill: #fff;
+    fill:#d1d3de;
+    stroke: #1d1d1b;
+  }
+  to {
+    fill: blue;
+    stroke: blue;
+  }
+}
+
+.vergroot polygon {
+  animation: achtergrondje 1s ease-in forwards;
+}
+
+.vergroot .a654b745-e318-45a2-94df-e06ea9ba0768 {
+  animation: achtergrondje 1s ease-in forwards;
+}
+.eersteRij, .tweedeRij, .derdeRij, .vierdeRij, .vijfdeRij {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+/* RIJ 1 */
+.firstArrow {
+  width: 30vw;
+}
+
+svg text {
+  opacity: 0;
+}
+
+.tweedeArrow {
+  width: 25vw;
+  transition: width 1s;
+  margin: 1rem;
+}
+
+
+.derdeArrow {
+  width: 15vw;
+  transition: width 1s;
+}
+
+
+/* RIJ 2 */
+.vierdeArrow {
+  width: 25vw;
+  transition: width 1s;
+}
+
+.vijfdeArrow {
+  width: 45vw;
+  transition: width 1s;
+  margin-top: -1rem;
+}
+
+.draaien1 {
+  width:  12%;
+  margin-left: 3vw;
+  margin-top: 2vw;
+}
+
+.draaien2 {
+  margin-left: 1vw;
+  margin-bottom: 1vw;
+}
+
+.draaien2, .draaien3, .draaien4, .draaien11, .draaien12 {
+  width: 12%;
+}
+
+.draaien3, .draaien4 {
+  margin-left: 4vw;
+}
+
+.draaien5 {
+  width: 16%;
+  margin-bottom: 0.5vw;
+}
+
+.draaien6 {
+  width: 12%;
+  margin-top: 3vw;
+  margin-bottom: -8vw;
+  margin-left: 1vw;
+}
+
+.draaien7 {
+  width: 15%;
+}
+
+.draaien8, .draaien9, .draaien10 {
+  position: absolute;
+  width: 3.5%;
+  margin-top: 8.5vw;
+}
+
+.draaien8 {
+  margin-left: 2vw;
+}
+
+.draaien9 {
+  margin-left: 4vw;
+}
+
+.draaien10 {
+  margin-left: 6vw;
+}
+
+.draaien12 {
+  margin-left: 2vw;
+  margin-bottom: -3vw;
+}
+
+.draaien13 {
+  width: 9%;
+  margin-left: 12vw;
+  margin-top: 4vw;
+  margin-bottom: -1vw;
+}
+
+/* code voor de sterretjes die standaard draaien */
+.draaien1, .draaien2, .draaien3, .draaien4, .draaien5, .draaien6, .draaien7, .draaien8, .draaien9, .draaien10, .draaien11, .draaien12, .draaien13 {
+		-webkit-animation: rotation 2s ease-in-out infinite;
+}
+
+@keyframes rotation {
+		from {
+				transform: rotate(0deg);
+		}
+		to {
+				transform: rotate(359deg);
+		}
+}
+
+
+.zesdeArrow > svg {
+  margin-left: 1rem;
+  margin-top: -5.5rem;
+}
+
+
+.zesdeArrow {
+  width: 40vw;
+  transition: width 1s;
+}
+
+
+/* RIJ 3 */
+.zevendeArrow {
+  margin-top: 3vw;
+  width: 120vw;
+  transition: width 1s;
+}
+
+.zevendeArrow > svg {
+  margin-top: -2.2rem;
+}
+
+.achtsteArrow {
+  width: 80vw;
+  transition: width 1s;
+  margin-bottom: 1rem;
+  margin-left: 3vw;
+}
+
+.negendeArrow {
+  margin-left: 2vw;
+  margin-top: 3vw;
+}
+
+.negende {
+  width: 12vw;
+  transition: width 1s;
+}
+
+.negendeplus {
+  margin-top: 1rem;
+  margin-left: 3rem;
+  width: 8vw;
+  transition: width 1s;
+}
+
+/* RIJ 4 */
+.tiendeArrow {
+  width: 25vw;
+  transition: width 1s;
+  margin-top: 1vw;
+}
+
+.tiendeArrow > svg {
+  margin-top: -2.5vw;
+}
+
+
+.elfdeArrow {
+  width: 35vw;
+  transition: width 1s;
+  margin-top: -2vw;
+}
+
+
+.twaalfdeArrow {
+  width: 40vw;
+  transition: width 1s;
+}
+
+.dertiendeArrow {
+  margin-top: 3rem;
+  width: 15vw;
+  transition: width 1s;
+}
+
+/* RIJ 5s */
+.veertiendeArrow {
+  width: 25vw;
+  transition: width 1s;
+  margin-top: 2vw;
+}
+
+.veertiendeArrow > svg {
+  margin-top: -6vw;
+}
+
+.vijftiendeArrow {
+  width: 17vw;
+  margin-left: 2vw;
+  transition: width 1s;
+}
+
+.zestiendeArrow {
+  width: 30vw;
+  transition: width 1s;
+  margin-top: 4vw;
+}
+
+.zestiendeArrow > svg {
+  margin-top: -10vw;
+}
+
+/* hier de code voor als je hovert dat de svg's hotpink worden */
+article > svg path:hover {
+  fill: hotpink;
+  stroke: hotpink;
+  transition: 0.1s ease-in;
+}
+
+.derdeArrow:hover {
+  fill: hotpink;
+  stroke: hotpink;
+  transition: 0.1s ease-in;
+}
+
+.vierdeArrow:hover {
+  fill: hotpink;
+  stroke: hotpink;
+  transition: 0.1s ease-in;
+}
+
+.negendeArrow > svg:hover {
+  fill: hotpink;
+  stroke: hotpink;
+  transition: 0.1s ease-in;
+}
+
+.a654b745-e318-45a2-94df-e06ea9ba0768:hover {
+  fill: hotpink;
+  transition: 0.1s ease-in;
+}
+
+.vijftiendeArrow:hover {
+  fill: hotpink;
+  transition: 0.1s ease-in;
+}

@@ -1,0 +1,310 @@
+/* Ipad formaat */
+@media (max-width: 768px) {
+body {
+    width: 70%;
+    padding: 1rem;
+  }
+
+.draaien1 {
+  width: 4%;
+  position: absolute;
+  left: 50vw;
+  top: 36vw;
+}
+
+.draaien2 {
+  margin-left: 2vw;
+  margin-top: 1vw;
+}
+
+.zesdeArrow {
+  margin-top: 4vw;
+}
+
+.zevendeArrow {
+    margin-top: 5vw;
+    width: 140vw;
+    margin-right: 4vw;
+}
+
+.draaien3 {
+  width: 4%;
+  position: absolute;
+  left: 5vw;
+  top: 59vw;
+}
+
+.draaien4 {
+  width: 4%;
+  position: absolute;
+  left: 5vw;
+  top: 55vw;
+}
+
+.draaien5 {
+  width: 4%;
+  position: absolute;
+  left: 30vw;
+  top: 60vw;
+}
+
+.negendeArrow {
+  margin-left: 2vw;
+  margin-top: -4vw;
+  margin-right: -2vw;
+}
+.negende {
+  width: 20vw;
+  transition: width 1s;
+}
+.negendeplus {
+  width: 15vw;
+  transition: width 1s;
+  margin-top: 2vw;
+}
+.draaien6 {
+  position: absolute;
+  width: 4%;
+  top: 59vw;
+  right: 33vw;
+  left: 50vw;
+}
+
+.tiendeArrow {
+  margin-top: -5vw;
+  width: 20vw;
+}
+
+.elfdeArrow {
+  width: 25vw;
+}
+
+.twaalfdeArrow {
+  width: 30vw;
+  margin-left: -5vw;
+}
+
+.draaien7 {
+  width: 20%;
+}
+
+.elfdeArrow {
+  margin-top: -8vw;
+}
+
+.draaien8 {
+  position: absolute;
+  width: 4%;
+  margin-top: 16vw;
+  left: 20vw;
+}
+
+.draaien9 {
+  position: absolute;
+  width: 4%;
+  margin-top: 16vw;
+  left: 22vw;
+}
+
+.draaien10 {
+  position: absolute;
+  width: 4%;
+  margin-top: 16vw;
+  left: 24vw;
+}
+
+.dertiendeArrow {
+  width: 15vw;
+  margin-right: -1vw;
+}
+
+.draaien11 {
+  width: 3%;
+  margin-top: 1vw;
+  position: absolute;
+}
+
+.draaien12 {
+  width: 3%;
+  margin-top: 4vw;
+  position: absolute;
+}
+
+.veertiendeArrow {
+  margin-top: 1vw;
+  width: 20vw;
+}
+
+.vijftiendeArrow {
+  margin-left: 6vw;
+  margin-top: -3vw;
+}
+
+.zestiendeArrow > svg {
+  margin-top: -6vw;
+  margin-left: 5vw;
+}
+
+.draaien13 {
+  width: 3vw;
+  margin-left: 25vw;
+  margin-top: 10vw;
+  margin-bottom: -10vw;
+}
+
+.vergroot {
+  position: absolute;
+  margin: auto;
+  width: 20vw;
+  left: 0;
+  right: 0;
+  top: 50vw;
+  bottom: 0;
+  z-index: 999;
+  animation: growings 1s ease-in forwards;
+}
+
+@keyframes growings {
+  from {
+      transform: scale(0);
+  }
+  to {
+      transform: scale(4);
+  }
+}
+}
+
+/* Iphone formaat */
+@media (max-width: 414px) {
+body {
+    width: 90vw;
+    padding: 1rem;
+    margin: auto;
+  }
+
+.firstArrow {
+  margin-top: 5vw;
+}
+
+.eersteRij {
+  margin-left: 5vw;
+  margin-top: 0.5vw;
+}
+
+.derdeRij {
+  margin-top: 7vw;
+}
+
+.vierdeRij {
+  margin-left: 4vw;
+  margin-top: 7vw;
+}
+
+.vijfdeRij {
+  margin-left: 8vw;
+}
+
+.zesdeArrow {
+  margin-top: 18vw;
+}
+
+.zevendeArrow {
+  width: 48vw;
+}
+
+.achtsteArrow {
+  width: 25vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.negendeArrow {
+  width: 30vw;
+}
+
+.negendeplus {
+  margin-left: 5vw;
+}
+
+.tiendeArrow {
+  width: 25vw;
+  margin-top: -5vw;
+  margin-left: -2vw;
+}
+
+.twaalfdeArrow {
+  width: 35vw;
+}
+
+.veertiendeArrow {
+  width: 25vw;
+}
+
+.vijftiendeArrow {
+  width: 20vw;
+}
+
+.zestiendeArrow {
+  width: 40vw;
+}
+
+.draaien1, .draaien2 {
+  position: absolute;
+  width: 4%;
+}
+
+.draaien1 {
+  margin-left: 15vw;
+  margin-top: 17vw;
+}
+
+.draaien2 {
+  margin-left: 10vw;
+  margin-top: -13vw;
+}
+
+.draaien3, .draaien4 {
+  margin-top: 17vw;
+  margin-left: 10vw;
+}
+
+.draaien3 {
+  margin-top: 19vw;
+}
+
+.draaien5 {
+  margin-left: 15vw;
+  margin-top: 12vw;
+}
+
+.draaien6 {
+  margin-left: 20vw;
+  margin-top: 22vw;
+}
+
+.draaien7 {
+  margin-left: -1vw;
+}
+
+.draaien8 {
+  margin-left: 12vw;
+}
+
+.draaien9 {
+  margin-left: 15vw;
+}
+
+.draaien10 {
+  margin-left: 18vw;
+}
+
+.draaien11 {
+  margin-left: -2vw;
+}
+
+.draaien13 {
+  position: absolute;
+  width: 4%;
+  margin-top: 15vw;
+}
+}

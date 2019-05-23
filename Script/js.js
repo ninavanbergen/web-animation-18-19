@@ -21,6 +21,7 @@ sterren.forEach(function(element) {
   })
 });
 
+
 /* hier selecteer ik het document, want ik gebruik de keypress. Als de keycode gelijk is aan 32, dus als er op spatie wordt gedrukt,
 dan wordt de class 'kleurtjes' toegevoegd aan de variabele bk, oftewel de body, dit heb ik gedaan voor meerdere toetsen, namelijk 1 tm 6 ook. Bij elk cijfer verandert de achtergrond naar een andere kleur. Alleen bij spatie krijgt de achtergrond een disco. */
 document.addEventListener("keypress", function(e){

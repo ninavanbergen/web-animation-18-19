@@ -16,7 +16,7 @@ elementsArray.forEach(function(element) {
 });
 
 elementsArray.forEach(function(element) {
-  element.addEventListener("dbclick", function() {
+  element.addEventListener("dblclick", function() {
     element.classList.toggle("draai")
   })
 });

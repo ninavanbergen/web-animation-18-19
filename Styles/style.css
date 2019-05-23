@@ -312,7 +312,7 @@ svg text {
 
 /* code voor de sterretjes die standaard draaien */
 .draaien1, .draaien2, .draaien3, .draaien4, .draaien5, .draaien6, .draaien7, .draaien8, .draaien9, .draaien10, .draaien11, .draaien12, .draaien13 {
-		-webkit-animation: rotation 2s ease-in-out infinite;
+		animation: rotation 2s ease-in-out infinite;
 }
 
 @keyframes rotation {

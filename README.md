@@ -56,7 +56,6 @@ De sterren draaien standaard heen en terug, daarvoor heb ik een animatie gebruik
 		}
 }
 ```
-
 Zodra je op een van de sterretjes klikt, wordt het sterretje roze en gaat hij even sneller draaien. Dit heb ik gedaan met een addEventListener in javascript.
 Hieronder de code:
 

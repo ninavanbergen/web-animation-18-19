@@ -15,6 +15,12 @@ elementsArray.forEach(function(element) {
   })
 });
 
+elementsArray.forEach(function(element) {
+  element.addEventListener("dbclick", function() {
+    element.classList.toggle("draai")
+  })
+});
+
 sterren.forEach(function(element) {
   element.addEventListener("click", function(){
     element.classList.toggle("draai")

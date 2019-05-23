@@ -35,7 +35,7 @@ document.addEventListener("keypress", function(e){
   }
 });
 
-document.addEventListener("dbclick", function(){
+document.addEventListener("dblclick", function(){
   bk.classList.toggle("kleurtjes")
 });
 
